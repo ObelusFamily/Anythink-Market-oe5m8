@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+For creating a local envirionment or set-up do the following :
+
+#1 : Clone the repo from the github page to your local environment.
+#2 : Download docker and install it if you don't have it already on your system.
+#3 : Go to the root directory or folder where you cloned the project and open a terminal. In the terminal write "docker-compose up" (without the quotes) and run it.
+#4 : Now the container should be running in docker along with the project frontend , backend and mongodb containers. 
+#5 : Check if the backend is working correctly visiting http://localhost:3000/api/ping . If you get the pong message then its running and you're good to go!!  
